@@ -1,0 +1,17 @@
+[[AWS Network]]
+
+Un subnet est un objet AWS représentant un sous-réseau d'un [[AWS VPC|VPC]], Amazon découpe alors le réseau virtuel créé lors de la création du VPC en plusieurs réseaux de masque plus grand. Ses caractéristiques sont :
+
+![[assets/Pasted image 20210909224641.png]]
+
+→ Un VPC
+
+→ Une zone de disponibilité (Au contraire d'un VPC)
+
+→ Une table d'ACL réseau
+
+→ DHCP (Option Attribuer automatiquement une adresse IPv4 publique)
+
+→ Un bloc d'adresse IPv4 au minimum (VPC = 10.210.0.0/16, subnet = 10.210.11.0/24)
+
+→ Une table de routage plus précise que celle du VPC (La table de routage du subnet ajoute des règles à celle du VPC)

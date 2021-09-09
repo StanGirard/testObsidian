@@ -1,0 +1,21 @@
+[[Padok]]
+tags: #description
+
+# 🔥 Padok's Tech Vault
+
+✅ **Rules** ✅ :
+- Links to parents' page at the top ! 
+	- Here the parent is [[Padok]]
+- There must be a link to your page. **No orphans !**
+- Do not create folders
+- All assets (png,pdf, excalidraw) in the `assets` folder
+
+📃 **Pages** 📃:
+
+**There are three kinds of pages:**
+- **Index Page**
+	- List of links to other pages. No real content
+- **Description Page**
+	- A page that has for only goal to explain something.
+- **How-To Page**
+	- Explain something and how to achieve it
